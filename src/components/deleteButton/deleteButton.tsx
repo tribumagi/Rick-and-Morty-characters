@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {FC} from 'react';
+import db from "./deleteButton.module.css"
 
-const DeleteButton = () => {
+type DeleteProps = {
+    onClick:()=>void
+}
+
+const DeleteButton:FC<DeleteProps> = ({onClick}) => {
+
     return (
-        <div>
-            
-            </div>
+        <button className={db.button} onClick={onClick}/>
     );
 };
 

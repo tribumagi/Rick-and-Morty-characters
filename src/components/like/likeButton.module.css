@@ -1,0 +1,25 @@
+.button1 {
+    background-image: url("../../svg/heart.svg");
+    background-color: transparent;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button2 {
+    background-image: url("../../svg/heart2.svg");
+    background-color: transparent;
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}

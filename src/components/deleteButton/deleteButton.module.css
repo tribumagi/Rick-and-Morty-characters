@@ -1,0 +1,12 @@
+.button {
+    background-image: url("../../svg/cross.svg");
+    background-color: transparent;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
