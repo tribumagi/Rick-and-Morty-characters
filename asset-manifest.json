@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Rick-and-Morty-characters/static/css/main.47e25c3d.css",
+    "main.js": "/Rick-and-Morty-characters/static/js/main.b2b3db64.js",
+    "static/js/787.9e0fbb94.chunk.js": "/Rick-and-Morty-characters/static/js/787.9e0fbb94.chunk.js",
+    "static/media/cross.svg": "/Rick-and-Morty-characters/static/media/cross.7547ed76b90d5776991c.svg",
+    "index.html": "/Rick-and-Morty-characters/index.html",
+    "static/media/heart.svg": "/Rick-and-Morty-characters/static/media/heart.e77dada76e0954e967f4.svg",
+    "static/media/heart2.svg": "/Rick-and-Morty-characters/static/media/heart2.89ee9819342abfd377ba.svg",
+    "main.47e25c3d.css.map": "/Rick-and-Morty-characters/static/css/main.47e25c3d.css.map",
+    "main.b2b3db64.js.map": "/Rick-and-Morty-characters/static/js/main.b2b3db64.js.map",
+    "787.9e0fbb94.chunk.js.map": "/Rick-and-Morty-characters/static/js/787.9e0fbb94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47e25c3d.css",
+    "static/js/main.b2b3db64.js"
+  ]
+}
