@@ -7,11 +7,11 @@ import {filterCardsAC} from "../../BLL/appReducer";
 
 const FilterButton = () => {
 
-   const dispatch = AppDispatch()
+    const dispatch = AppDispatch()
 
 
     return (
-        <button onClick={()=>dispatch(filterCardsAC())} className={f.filter}>Filter</button>
+        <button onClick={() => dispatch(filterCardsAC())} className={f.filter}>Filter</button>
     );
 };
 

@@ -4,8 +4,6 @@ import {useDispatch} from "react-redux";
 import {AppActionType, appReducer} from "./appReducer";
 
 
-
-
 const rootState = combineReducers({app: appReducer})
 
 export type AppRootState = ReturnType<typeof rootState>

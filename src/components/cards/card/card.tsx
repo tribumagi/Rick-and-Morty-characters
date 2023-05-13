@@ -11,7 +11,6 @@ type CardPropsType = {
 
 const Card: FC<CardPropsType> = memo(({card}) => {
 
-
     const dispatch = AppDispatch();
 
     const deleteCard = () => {
@@ -22,7 +21,6 @@ const Card: FC<CardPropsType> = memo(({card}) => {
         dispatch(likeCardAC(card.id))
     }
 
-
     return (
         <div className={s.card}>
             <DeleteButton onClick={deleteCard}/>
@@ -31,7 +29,9 @@ const Card: FC<CardPropsType> = memo(({card}) => {
             <div>
                 <span className={s.name}>{card.name}</span>
                 <div className={s.description}>
-                    <li className={s.status}>status: <span className={s.description}>{card.status}</span></li>
+                    <li className={s.status}>
+                        status: <span className={s.description}>{card.status}</span>
+                    </li>
                     <span>{card.species}  </span>
                     <span>{card.gender}</span>
                     <li className={s.status}>Last known location:</li>
